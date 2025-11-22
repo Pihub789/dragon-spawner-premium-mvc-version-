@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Spawner</title>
+  <style>
+    /* Include the CSS styles here */
+    /* (The same CSS code provided above) */
+  </style>
+</head>
+<body>
+  <h1>Dragon List</h1>
+  <ul id="dragonList">
+    <!-- Dragons will be dynamically added here -->
+  </ul>
+
+  <h2>Add a New Dragon</h2>
+  <form id="addDragonForm">
+    <label for="dragonName">Dragon Name:</label>
+    <input type="text" id="dragonName" name="dragonName" required>
+    <label for="dragonType">Dragon Type:</label>
+    <input type="text" id="dragonType" name="dragonType" required>
+    <button type="submit">Add Dragon</button>
+  </form>
+
+  <h2>Remove a Dragon</h2>
+  <form id="removeDragonForm">
+    <label for="dragonId">Dragon ID:</label>
+    <input type="number" id="dragonId" name="dragonId" required>
+    <button type="submit">Remove Dragon</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
