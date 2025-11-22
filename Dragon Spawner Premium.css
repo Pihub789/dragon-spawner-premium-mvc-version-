@@ -1,0 +1,88 @@
+/* Style for the dragon list */
+#dragonList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #dragonList li {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the add dragon form */
+  #addDragonForm {
+    margin-top: 20px;
+    background-color: #e8f0fe;
+    border: 1px solid #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #addDragonForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #addDragonForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #addDragonForm button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addDragonForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the remove dragon form */
+  #removeDragonForm {
+    margin-top: 20px;
+    background-color: #ffe8e8;
+    border: 1px solid #dc3545;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #removeDragonForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #removeDragonForm input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #removeDragonForm button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #removeDragonForm button:hover {
+    background-color: #c82333;
+  }
+  
